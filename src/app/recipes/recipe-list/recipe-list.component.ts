@@ -8,6 +8,7 @@ import { Recipe } from '../recipe.model';
 })
 export class RecipeListComponent implements OnInit {
   recipes: Recipe[] = [
+    new Recipe('A Test Recipe', 'Test Recipe', 'https://get.pxhere.com/photo/dish-food-cuisine-ingredient-meat-taco-meal-produce-salad-side-dish-recipe-fried-food-mexican-food-lunch-american-food-brunch-appetizer-Tex-mex-food-greek-food-Latin-american-food-mixed-grill-1557385.jpg'),
     new Recipe('A Test Recipe', 'Test Recipe', 'https://get.pxhere.com/photo/dish-food-cuisine-ingredient-meat-taco-meal-produce-salad-side-dish-recipe-fried-food-mexican-food-lunch-american-food-brunch-appetizer-Tex-mex-food-greek-food-Latin-american-food-mixed-grill-1557385.jpg')
   ];
 
